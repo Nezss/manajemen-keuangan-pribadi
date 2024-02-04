@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="UangKu.exe" version="1.0.0.1" publicKeyToken="0713a2a09ab5a3ac" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="UangKu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="UangKu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UangKu.exe" size="11747240">
+      <assemblyIdentity name="UangKu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sYy6MF4ornzHOsMRQqm5AbFpRsa5x+Zw98rIcc/187g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="UangKu.exe.config" size="802">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FyTPvLEarHPqdtdvsujjeT2A7astNpbMXO05MyY94gc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AANVN\aanvi" issuerKeyHash="b48d6206c5c23ad0775738287dbc6b81892ca7a4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oPpgx4kEPfqP74+ul694kdhL9L43ikDwUZ5pFQqPetM=</DigestValue></Reference></SignedInfo><SignatureValue>CxFP0hWNqSWfYuS/ZN0Fpm4Y0KRd7wuWaOhsGQ1qki0C+s2SPhs0UT6Pk5Nb1f9TtByr/kI0nPHF8HrmNMvmBe++VN9Cq+S5S/adK473dBeUzsTJftQGma6zMil885aR1bq7s6s7JW0qM5QcNAYaj9cve3BFv5mfiwAKguvkI20=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pNQdh7ssZLwup08NsL+ggl7NCV399pwsZsuQrmEbyPj7dGtGUKqqvwk/XVYOuc+yxzNKj051jutqu0x3YuSB1wRoKYjzb8hXlXpntvgKpY098v5tmKC3WDin6ZIK+FCod9+3cx6rR71nd/lCOHsgfEXbUK4NtC7iFTq307LTqZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d37a8f0a15699e51f0408a37bef44bd89178af97ae8fef8ffa3d0489c760faa0" Description="" Url=""><as:assemblyIdentity name="UangKu.exe" version="1.0.0.1" publicKeyToken="0713a2a09ab5a3ac" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AANVN\aanvi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iChz8QBDSe/yFKUvaApEZtcgbuqkNBqQCjl0oG2QRgg=</DigestValue></Reference></SignedInfo><SignatureValue>F5yrE5Il/5I2U+Xj01P4Sto76P8cB23VFuFYDxynR9n6qF4hvT1wCTwVh4WfJv+U8+g2KsAobZ0DKpX11FlJxZi1XQcDEgFyjnO/QlFc2aZpJtKpMa7RyqdlehRu1QMYsSqtLIuxc5FriTwai7cFzyd7TJhFUchvlJu2D5S9uWI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pNQdh7ssZLwup08NsL+ggl7NCV399pwsZsuQrmEbyPj7dGtGUKqqvwk/XVYOuc+yxzNKj051jutqu0x3YuSB1wRoKYjzb8hXlXpntvgKpY098v5tmKC3WDin6ZIK+FCod9+3cx6rR71nd/lCOHsgfEXbUK4NtC7iFTq307LTqZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQefaVmrDYuLdOE6TBhlXnUDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQQBBAE4AVgBOAFwAYQBhAG4AdgBpMB4XDTIzMTIwMzE1NTE1MFoXDTI0MTIwMjIxNTE1MFowITEfMB0GA1UEAx4WAEEAQQBOAFYATgBcAGEAYQBuAHYAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApNQdh7ssZLwup08NsL+ggl7NCV399pwsZsuQrmEbyPj7dGtGUKqqvwk/XVYOuc+yxzNKj051jutqu0x3YuSB1wRoKYjzb8hXlXpntvgKpY098v5tmKC3WDin6ZIK+FCod9+3cx6rR71nd/lCOHsgfEXbUK4NtC7iFTq307LTqZECAwEAATANBgkqhkiG9w0BAQsFAAOBgQB4G9q7gYPmdew0dLvh0ptq0f0E2ioSFzPirSRauGm3WfmtDhcH6RzrPoayLge5R7LK+L3fM/UHhxP4AGC30bX370okCS5uYmytDMfJuW6Y5BXYyrDHYDbkYss+Vs4ctJwaBPCFpwnesH/rDw+cP9AF8IjqC75GvM7JWivGQ8HufQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
